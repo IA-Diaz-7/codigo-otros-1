@@ -1,5 +1,9 @@
 //IBER ALEJANDRO PEREZ DIAZ CAL:4
 
+//Se corrigio las rutas del CCS y del JS para que estuviera bien conectados con el html
+//se agrego async en la function para que funcionara el await
+//y se corrigio parte de la fuction que manda el error.
+
 const baseEndpoint = 'https://api.github.com';
 const usersEndpoint = `${baseEndpoint}/users`;
 const $n = document.getElementsByClassName('name');
